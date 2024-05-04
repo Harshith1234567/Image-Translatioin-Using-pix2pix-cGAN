@@ -7,7 +7,7 @@ Image-to-Image Translation is a task in computer vision and machine learning whe
 It is a class of vision and graphics problems where the goal is to learn the mapping between an input image and an output image. It can be applied to a wide range of applications, such as collection style transfer, object transfiguration, season transfer and photo enhancement.
 
 In the pix2pix cGAN, we condition on input images and generate corresponding output images. cGANs were first proposed in Conditional Generative Adversarial Nets (Mirza and Osindero, 2014)
-![image](https://github.com/Harshith1234567/Image-Translatioin-Using-pix2pix-cGAN/assets/53342028/bae86677-2e0f-43a5-9aeb-8117d4b16e39)
+![image](https://tcwang0509.github.io/pix2pixHD/images/teaser_720.gif)
 
 The architecture of your network will contain:
 
