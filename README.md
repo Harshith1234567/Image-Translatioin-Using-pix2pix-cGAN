@@ -70,7 +70,7 @@ The discriminator in the pix2pix cGAN is a convolutional PatchGAN classifier—i
 
 Interpreting the logs is more subtle when training a GAN (or a cGAN like pix2pix) compared to a simple classification or regression model. Things to look for:
 
-- Check that neither the generator nor the discriminator model has "won". If either the gen_gan_loss or the disc_loss gets very low, it's an indicator that this model is dominating the other, and you are not successfully training the combined model.
+- Check that neither the generator nor the discriminator model has "won". If either the gen_gan_loss or the disc_loss gets very low, it's an indicator that this model is dominating the other, and we are not successfully training the combined model.
 - The value log(2) = 0.69 is a good reference point for these losses, as it indicates a perplexity of 2 - the discriminator is, on average, equally uncertain about the two options.
 - For the disc_loss, a value below 0.69 means the discriminator is doing better than random on the combined set of real and generated images.
 - For the gen_gan_loss, a value below 0.69 means the generator is doing better than random at fooling the discriminator.
