@@ -33,7 +33,7 @@ The architecture of our network will contain:
 
 <b> Generator: </b>
 
-The generator of our pix2pix cGAN is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). (You can find out more about it in the Image segmentation tutorial and on the U-Net project website.)
+The generator of our pix2pix cGAN is a modified U-Net. A U-Net consists of an encoder (downsampler) and decoder (upsampler). (We can find out more about it in the Image segmentation tutorial and on the U-Net project website.)
 
 - Each block in the encoder is: Convolution -> Batch normalization -> Leaky ReLU
 - Each block in the decoder is: Transposed convolution -> Batch normalization -> Dropout (applied to the first 3 blocks) -> ReLU
